@@ -8,6 +8,7 @@ body{
 }
 
 .warp{
+    min-width: 320px;
     width: 385px;
     margin-left: auto;
     margin-right: auto;
@@ -82,14 +83,6 @@ button{
      list-style-type: none;
      padding: 0;
  }
-
-
- .finished {
-     color:#037c1f;
-     text-decoration: line-through;
- }
-
-
 input[type=checkbox]:checked + span{
     color:#037c1f;
     text-decoration: line-through;
